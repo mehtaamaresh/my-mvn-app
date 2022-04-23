@@ -22,6 +22,7 @@ public class AppTest
 
     @Test
     public void testAppConstructor() {
+        System.out.println("Hello");
         try {
             new App();
         } catch (Exception e) {
